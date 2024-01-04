@@ -59,7 +59,7 @@ export default function Catalepsia() {
     return (
         <>
             <Hero title={heroConfig["title"]} subtitle={heroConfig["subtitle"]}/>
-            <Section title={aboutConfig["title"]} isEven={false} content=<p style={{margin: 0, padding: 2 + 'rem'}}>{aboutConfig["content"]}</p>/>,
+            <Section title={aboutConfig["title"]} isEven={false} content=<p style={{margin: 0, padding: 2 + 'rem'}}>{aboutConfig["content"]}</p>/>
             <Section title={portfolioConfig["title"]} isEven={true} content={productionComponents}/>
             <Footer title={contactConfig["title"]}/>
         </>
