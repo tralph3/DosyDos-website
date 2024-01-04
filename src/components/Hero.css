@@ -1,0 +1,28 @@
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/hero.jpg');
+    height: 100vh;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero-title {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.hero-subtitle {
+    font-style: italic;
+    font-size: 30px;
+}

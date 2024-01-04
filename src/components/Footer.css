@@ -1,0 +1,15 @@
+.footer {
+    background-color: grey;
+    margin: 0;
+    padding: 3rem 10rem 10rem 10rem;
+    text-align: center;
+}
+
+.contactIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.contactIcons h4 {
+    padding: 0px 10px;
+}
