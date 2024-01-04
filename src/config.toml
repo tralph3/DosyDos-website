@@ -11,3 +11,11 @@ title="PORTAFOLIO"
 
 [contact]
 title="CONTACT"
+
+[contact.icons.instagram]
+icon="instagram.svg"
+link="https://gnu.org"
+
+[contact.icons.youtube]
+icon="youtube.svg"
+link="https://gnu.org"

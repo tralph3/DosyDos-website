@@ -5,11 +5,13 @@
     text-align: center;
 }
 
-.contactIcons {
-    display: flex;
-    justify-content: center;
+.contactIcons img {
+    padding: 0px 10px;
+    width: 3rem;
+    transition: 100ms;
 }
 
-.contactIcons h4 {
-    padding: 0px 10px;
+.contactIcons img:hover {
+    transform: scale(1.05);
+    transition: 200ms;
 }
