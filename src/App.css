@@ -1,0 +1,24 @@
+.aboutContent {
+    margin: 0;
+    padding: 2rem 20%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+@media screen and (max-width: 1600px) {
+  .aboutContent {
+    padding: 2rem 18%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .aboutContent {
+    padding: 2rem 10%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .aboutContent {
+    padding: 2rem 6%;
+  }
+}

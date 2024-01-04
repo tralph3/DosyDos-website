@@ -1,10 +1,13 @@
 .production {
     display: flex;
     transition: 100ms;
+    padding: 0 15rem;
 }
 
 .production-cover {
-    width: 15rem;
+    max-width: 15rem;
+    width: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: .2rem;
     margin: 2rem;
@@ -13,24 +16,27 @@
 }
 
 .production:hover {
+    transition: 200ms;
+}
+
+.production:hover {
     background-color: darkred;
     cursor: pointer;
-    transition: 200ms;
 }
 
 .production:hover .production-cover {
     transform: scale(1.01);
-    transition: 200ms;
+}
+
+.production:hover .production-info {
+    color: white;
 }
 
 .production-info {
     margin: 16px;
     width: 40rem;
-}
-
-.production:hover .production-info {
-    color: white;
-    transition: 200ms;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .production-title {
@@ -42,4 +48,28 @@
     font-size: 12px;
     margin-top: 0;
     font-weight: 300;
+}
+
+@media screen and (max-width: 1600px) {
+  .production {
+    padding: 0 13%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .production {
+    padding: 0 5%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .production-cover {
+      max-width: 8rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .production-cover {
+      max-width: 4rem;
+  }
 }
