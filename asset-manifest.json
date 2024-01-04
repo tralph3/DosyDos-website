@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/catalepsia-website/static/css/main.30118240.css",
-    "main.js": "/catalepsia-website/static/js/main.5cd4916c.js",
+    "main.js": "/catalepsia-website/static/js/main.7d59b42a.js",
     "static/media/terminator.jpg": "/catalepsia-website/static/media/terminator.2fb80709452244dbe1c7.jpg",
     "static/media/terminator2.jpg": "/catalepsia-website/static/media/terminator2.6b0915b83383ec9f29f0.jpg",
     "static/media/hero.jpg": "/catalepsia-website/static/media/hero.2cc1cb8b54919e5fa9a3.jpg",
@@ -10,14 +10,14 @@
     "static/media/overpass-regular.otf": "/catalepsia-website/static/media/overpass-regular.ec2a70940995f785573e.otf",
     "static/media/overpass-light.otf": "/catalepsia-website/static/media/overpass-light.7fcceb8a5f8f2362108e.otf",
     "static/media/overpass-bold.otf": "/catalepsia-website/static/media/overpass-bold.0d14110fa0a3f426763d.otf",
-    "static/media/productions.toml": "/catalepsia-website/static/media/productions.7dbd8703ceadf1219ded.toml",
+    "static/media/productions.toml": "/catalepsia-website/static/media/productions.00573f1df4e96171894f.toml",
     "index.html": "/catalepsia-website/index.html",
     "static/media/config.toml": "/catalepsia-website/static/media/config.5a9235c18e9b94e5debc.toml",
     "main.30118240.css.map": "/catalepsia-website/static/css/main.30118240.css.map",
-    "main.5cd4916c.js.map": "/catalepsia-website/static/js/main.5cd4916c.js.map"
+    "main.7d59b42a.js.map": "/catalepsia-website/static/js/main.7d59b42a.js.map"
   },
   "entrypoints": [
     "static/css/main.30118240.css",
-    "static/js/main.5cd4916c.js"
+    "static/js/main.7d59b42a.js"
   ]
 }
