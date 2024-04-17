@@ -3,12 +3,14 @@ import productionsFile from './productions.toml';
 import configFile from './config.toml';
 import './App.css';
 import { Hero } from './components/Hero';
-import { Section } from './components/Section';
+import { Subtitle } from './components/Subtitle';
 import { Production } from './components/Production';
 import { Footer } from './components/Footer';
+import { Quote } from './components/Quote';
+const about_image = require(`./img/about.png`);
 const toml = require('toml');
 
-export default function Catalepsia() {
+export default function DosyDos() {
     let [productions, setProductions] = useState(Object);
     let [config, setConfig] = useState(Object);
 
@@ -44,10 +46,8 @@ export default function Catalepsia() {
             key={productionKey}
             title={production["title"]}
             coverName={production["coverName"]}
-            description={production["description"]}
             releaseDate={production["releaseDate"]}
             type={production["type"]}
-            length={production["length"]}
             />
         );
     }
@@ -56,11 +56,25 @@ export default function Catalepsia() {
     let aboutConfig = config["about"];
     let portfolioConfig = config["portfolio"];
     let contactConfig = config["contact"];
+
+    let aboutQuote = <Quote quote={aboutConfig["quote"]} author={aboutConfig["quote-author"]}/>
+    let portfolioQuote = <Quote quote={portfolioConfig["quote"]} author={portfolioConfig["quote-author"]}/>
     return (
         <>
             <Hero title={heroConfig["title"]} subtitle={heroConfig["subtitle"]}/>
-            <Section title={aboutConfig["title"]} isEven={false} content=<p className="aboutContent">{aboutConfig["content"]}</p>/>
-            <Section title={portfolioConfig["title"]} isEven={true} content={productionComponents}/>
+            <Subtitle quote={portfolioQuote} title={portfolioConfig["title"]}/>
+            <div className="productions">
+            {productionComponents}
+            </div>
+            <Subtitle quote={aboutQuote} title={aboutConfig["title"]} content=<p className="aboutContent">{aboutConfig["content"]}</p>/>
+            <div className="about">
+            <p>
+            <div className="aboutText">
+                {aboutConfig["content"]}
+            </div>
+            </p>
+            <img src={about_image} alt="about-decoration" align="right"/>
+            </div>
             <Footer contactConfig={contactConfig}/>
         </>
     );

@@ -1,16 +1,20 @@
 [hero]
-title="EPILEPSIA"
-subtitle="Algo así era"
+title="2&2"
+subtitle="Del miedo nace la emoción. Bienvenido a nuestro mundo."
 
 [about]
 title="SOBRE NOSOTROS"
-content="La epilepsia es una enfermedad provocada por un desequilibrio en la actividad eléctrica de las neuronas de alguna zona del cerebro. Se caracteriza por uno o varios trastornos neurológicos que dejan una predisposición en el cerebro a padecer convulsiones recurrentes, que suelen dar lugar a consecuencias neurobiológicas, cognitivas y psicológicas."
+content="Somos una productora de cine cuyo objetivo es plasmar en nuestra creación audiovisual una particular mirada y pasión por este arte. Todo proyecto cinematográfico nace a partir de un sueño, y nuestro trabajo siempre va a ser conseguir las herramientas para cumplirlo. Abrirle las puertas a cualquier persona que tenga las intenciones de llevar a cabo un proyecto más allá de su trayectoria o experiencia en el rubro, ya que sabemos que se puede encontrar talento en piezas independientes desconocidas por la industria. Nos especializamos en cualquier producto audiovisual y buscamos potenciar nuestras  habilidades en el rubro sin importar géneros o formatos. Estamos disponibles y abiertos a realizar videoclips, ficción, publicidad, trabajos de edición, diseños de producción, asesorías, entre otras cosas."
+quote="El infierno está vacío; todos los demonios están aquí."
+quote-author="William Shakespeare"
 
 [portfolio]
 title="PORTAFOLIO"
+quote="Los monstruos y los fantasmas son reales. Viven dentro de nosotros. Y, a veces, ganan."
+quote-author="Stephen King"
 
 [contact]
-title="CONTACT"
+title="CONTACTO"
 
 [contact.icons.instagram]
 icon="instagram.svg"
@@ -19,3 +23,7 @@ link="https://gnu.org"
 [contact.icons.youtube]
 icon="youtube.svg"
 link="https://gnu.org"
+
+[contact.icons.email]
+icon="email.svg"
+link="mailto://pito@gmail.com"

@@ -1,24 +1,45 @@
-.aboutContent {
-    margin: 0;
-    padding: 2rem 20%;
+body {
+    background-color: black;
+    color: #d3d1d3;
+}
+
+.productions {
+    display: grid;
+    gap: min(4vw, 2rem);
+    grid-template-columns: repeat(auto-fit, 200px);
+    margin: 5vw;
+    margin-top: 1vh;
+}
+
+.about {
+    display: flex;
+    gap: 2rem;
     text-align: justify;
-    text-justify: inter-word;
+    margin: 5vw;
+    margin-top: 1vh;
+    font-size: 18px;
 }
 
-@media screen and (max-width: 1600px) {
-  .aboutContent {
-    padding: 2rem 18%;
-  }
+.aboutText {
+    max-width: min(100%, 800px);
 }
 
-@media screen and (max-width: 1000px) {
-  .aboutContent {
-    padding: 2rem 10%;
-  }
+.about img {
+    float: right;
+    width: 500px;
+    max-width: 100%;
 }
 
-@media screen and (max-width: 700px) {
-  .aboutContent {
-    padding: 2rem 6%;
-  }
+@media (max-width: 1030px) {
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .about img {
+        width: 100%;
+    }
+
+    .aboutText {
+        max-width: 100%;
+    }
 }

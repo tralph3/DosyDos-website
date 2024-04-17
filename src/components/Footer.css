@@ -1,7 +1,7 @@
 .footer {
-    background-color: grey;
+    background-color: black;
     margin: 0;
-    padding: 3rem 10rem 10rem 10rem;
+    padding: 1rem 0rem;
     text-align: center;
 }
 
@@ -9,6 +9,7 @@
     padding: 0px 10px;
     width: 3rem;
     transition: 100ms;
+    filter: invert(60%);
 }
 
 .contactIcons img:hover {

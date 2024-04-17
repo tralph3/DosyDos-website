@@ -1,11 +1,12 @@
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../img/hero.jpg');
-    height: 100vh;
+    min-height: 70vh;
     margin: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    min-height: 700px;
 }
 
 .hero-text {
@@ -19,10 +20,18 @@
 
 .hero-title {
     font-weight: bold;
-    font-size: 60px;
+    font-size: 128px;
 }
 
 .hero-subtitle {
     font-style: italic;
-    font-size: 30px;
+    font-size: 24px;
+}
+
+.gradient {
+    position: absolute;
+    bottom: 0;
+    height: 20%;
+    width: 100%;
+    background-image: linear-gradient(transparent, black 40%);
 }

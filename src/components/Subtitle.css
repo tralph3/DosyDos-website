@@ -1,0 +1,23 @@
+.subtitle-outer-container {
+    margin: 0 5vw;
+    margin-top: 10vh;
+}
+
+.subtitle-inner-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 32px;
+    margin: 0;
+    margin-right: 30px;
+}
+
+.quote {
+    padding-top: 15px;
+}

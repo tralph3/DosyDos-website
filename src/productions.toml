@@ -1,23 +1,20 @@
 [terminator]
-title="The Terminator"
+title="THE TERMINATOR"
 description="A human soldier is sent from 2029 to 1984 to stop an almost indestructible cyborg killing machine, sent from the same year, which has been programmed to execute a young woman whose unborn son is the key to humanity's future salvation."
 releaseDate="1984"
 coverName="terminator.jpg"
-type="Largometraje"
-length="1h 47m"
+type="LARGOMETRAJE"
 
 [terminator2]
-title="Terminator 2: Judgement Day"
+title="TERMINATOR 2: JUDGEMENT DAY"
 description="A cyborg, identical to the one who failed to kill Sarah Connor, must now protect her ten year old son John from an even more advanced and powerful cyborg."
 releaseDate="1991"
 coverName="terminator2.jpg"
-type="Largometraje"
-length="2h 17m"
+type="LARGOMETRAJE"
 
 [sharknado]
-title="Sharknado"
+title="SHARKNADO"
 description="La mejor película de la historia."
 releaseDate="2013"
 coverName="sharknado.jpg"
-type="Largometraje"
-length="1h 26m"
+type="LARGOMETRAJE"
