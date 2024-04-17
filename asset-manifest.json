@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/catalepsia-website/static/css/main.03e2512d.css",
-    "main.js": "/catalepsia-website/static/js/main.83965cc4.js",
-    "static/media/hero.jpg": "/catalepsia-website/static/media/hero.481e58867aafa8b5f499.jpg",
-    "static/media/terminator.jpg": "/catalepsia-website/static/media/terminator.2fb80709452244dbe1c7.jpg",
-    "static/media/terminator2.jpg": "/catalepsia-website/static/media/terminator2.6b0915b83383ec9f29f0.jpg",
-    "static/media/about.png": "/catalepsia-website/static/media/about.8146f16d83b5e33d2f12.png",
-    "static/media/sharknado.jpg": "/catalepsia-website/static/media/sharknado.79c7a39b750fdb3be5e9.jpg",
-    "static/media/overpass-italic.otf": "/catalepsia-website/static/media/overpass-italic.0b13c2cb012a3362d894.otf",
-    "static/media/overpass-regular.otf": "/catalepsia-website/static/media/overpass-regular.ec2a70940995f785573e.otf",
-    "static/media/overpass-light.otf": "/catalepsia-website/static/media/overpass-light.7fcceb8a5f8f2362108e.otf",
-    "static/media/overpass-bold.otf": "/catalepsia-website/static/media/overpass-bold.0d14110fa0a3f426763d.otf",
-    "static/media/instagram.svg": "/catalepsia-website/static/media/instagram.b61edd4367d2b75de1ab.svg",
-    "static/media/email.svg": "/catalepsia-website/static/media/email.68f25a7ccd73f7a88de3.svg",
-    "static/media/config.toml": "/catalepsia-website/static/media/config.6548c43fa7d73d25ec19.toml",
-    "static/media/youtube.svg": "/catalepsia-website/static/media/youtube.895f3548b16a61e1205a.svg",
-    "static/media/productions.toml": "/catalepsia-website/static/media/productions.09e19f7a9e091b4c5042.toml",
-    "index.html": "/catalepsia-website/index.html",
-    "main.03e2512d.css.map": "/catalepsia-website/static/css/main.03e2512d.css.map",
-    "main.83965cc4.js.map": "/catalepsia-website/static/js/main.83965cc4.js.map"
+    "main.css": "/DosyDos-website/static/css/main.c1c6fa9c.css",
+    "main.js": "/DosyDos-website/static/js/main.2790e0cd.js",
+    "static/media/hero.jpg": "/DosyDos-website/static/media/hero.481e58867aafa8b5f499.jpg",
+    "static/media/terminator.jpg": "/DosyDos-website/static/media/terminator.2fb80709452244dbe1c7.jpg",
+    "static/media/terminator2.jpg": "/DosyDos-website/static/media/terminator2.6b0915b83383ec9f29f0.jpg",
+    "static/media/about.png": "/DosyDos-website/static/media/about.8146f16d83b5e33d2f12.png",
+    "static/media/sharknado.jpg": "/DosyDos-website/static/media/sharknado.79c7a39b750fdb3be5e9.jpg",
+    "static/media/overpass-italic.otf": "/DosyDos-website/static/media/overpass-italic.0b13c2cb012a3362d894.otf",
+    "static/media/overpass-regular.otf": "/DosyDos-website/static/media/overpass-regular.ec2a70940995f785573e.otf",
+    "static/media/overpass-light.otf": "/DosyDos-website/static/media/overpass-light.7fcceb8a5f8f2362108e.otf",
+    "static/media/overpass-bold.otf": "/DosyDos-website/static/media/overpass-bold.0d14110fa0a3f426763d.otf",
+    "static/media/instagram.svg": "/DosyDos-website/static/media/instagram.b61edd4367d2b75de1ab.svg",
+    "static/media/email.svg": "/DosyDos-website/static/media/email.68f25a7ccd73f7a88de3.svg",
+    "static/media/config.toml": "/DosyDos-website/static/media/config.6548c43fa7d73d25ec19.toml",
+    "static/media/youtube.svg": "/DosyDos-website/static/media/youtube.895f3548b16a61e1205a.svg",
+    "static/media/productions.toml": "/DosyDos-website/static/media/productions.09e19f7a9e091b4c5042.toml",
+    "index.html": "/DosyDos-website/index.html",
+    "main.c1c6fa9c.css.map": "/DosyDos-website/static/css/main.c1c6fa9c.css.map",
+    "main.2790e0cd.js.map": "/DosyDos-website/static/js/main.2790e0cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.03e2512d.css",
-    "static/js/main.83965cc4.js"
+    "static/css/main.c1c6fa9c.css",
+    "static/js/main.2790e0cd.js"
   ]
 }
