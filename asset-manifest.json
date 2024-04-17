@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/catalepsia-website/static/css/main.03e2512d.css",
-    "main.js": "/catalepsia-website/static/js/main.c2bd86ca.js",
+    "main.js": "/catalepsia-website/static/js/main.83965cc4.js",
     "static/media/hero.jpg": "/catalepsia-website/static/media/hero.481e58867aafa8b5f499.jpg",
     "static/media/terminator.jpg": "/catalepsia-website/static/media/terminator.2fb80709452244dbe1c7.jpg",
     "static/media/terminator2.jpg": "/catalepsia-website/static/media/terminator2.6b0915b83383ec9f29f0.jpg",
@@ -13,15 +13,15 @@
     "static/media/overpass-bold.otf": "/catalepsia-website/static/media/overpass-bold.0d14110fa0a3f426763d.otf",
     "static/media/instagram.svg": "/catalepsia-website/static/media/instagram.b61edd4367d2b75de1ab.svg",
     "static/media/email.svg": "/catalepsia-website/static/media/email.68f25a7ccd73f7a88de3.svg",
-    "static/media/config.toml": "/catalepsia-website/static/media/config.1ad293dc0f19d5201c00.toml",
+    "static/media/config.toml": "/catalepsia-website/static/media/config.6548c43fa7d73d25ec19.toml",
     "static/media/youtube.svg": "/catalepsia-website/static/media/youtube.895f3548b16a61e1205a.svg",
     "static/media/productions.toml": "/catalepsia-website/static/media/productions.09e19f7a9e091b4c5042.toml",
     "index.html": "/catalepsia-website/index.html",
     "main.03e2512d.css.map": "/catalepsia-website/static/css/main.03e2512d.css.map",
-    "main.c2bd86ca.js.map": "/catalepsia-website/static/js/main.c2bd86ca.js.map"
+    "main.83965cc4.js.map": "/catalepsia-website/static/js/main.83965cc4.js.map"
   },
   "entrypoints": [
     "static/css/main.03e2512d.css",
-    "static/js/main.c2bd86ca.js"
+    "static/js/main.83965cc4.js"
   ]
 }
