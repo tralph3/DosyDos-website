@@ -1,18 +1,18 @@
 .footer {
-    background-color: black;
-    margin: 0;
-    padding: 1rem 0rem;
-    text-align: center;
+  background-color: black;
+  margin: 0;
+  padding: 1rem 0rem;
+  text-align: center;
 }
 
 .contactIcons img {
-    padding: 0px 10px;
-    width: 3rem;
-    transition: 100ms;
-    filter: invert(60%);
+  padding: 0px 10px;
+  width: 3rem;
+  transition: 100ms;
+  filter: invert(60%);
 }
 
 .contactIcons img:hover {
-    transform: scale(1.05);
-    transition: 200ms;
+  transform: scale(1.05);
+  transition: 200ms;
 }

@@ -1,15 +1,15 @@
-import './Hero.css';
+import "./Hero.css";
 
-function Hero({title, subtitle}) {
-    return (
-            <div className="hero-image">
-                <div className="hero-text">
-                    <h1 className="hero-title">{title}</h1>
-                    <p className="hero-subtitle">{subtitle}</p>
-            </div>
-            <div className="gradient"/>
-            </div>
-    );
+function Hero({ title, subtitle }) {
+  return (
+    <div className="hero-image">
+      <div className="hero-text">
+        <h1 className="hero-title">{title}</h1>
+        <p className="hero-subtitle">{subtitle}</p>
+      </div>
+      <div className="gradient" />
+    </div>
+  );
 }
 
 export { Hero };

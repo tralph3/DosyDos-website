@@ -1,15 +1,15 @@
 .quote {
-    max-width: 350px;
+  max-width: 350px;
 }
 
 .quote-text {
-    font-weight: lighter;
-    text-align: justify;
+  font-weight: lighter;
+  text-align: justify;
 }
 
 .quote-author {
-    font-weight: bold;
-    text-align: right;
-    margin-top: 2px;
-    padding-right: 70px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 2px;
+  padding-right: 70px;
 }
