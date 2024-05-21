@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DosyDos-website/static/css/main.8ad8e6a3.css",
-    "main.js": "/DosyDos-website/static/js/main.50925d9b.js",
+    "main.js": "/DosyDos-website/static/js/main.ad7a63b7.js",
     "reactPlayerYouTube.js": "/DosyDos-website/static/js/reactPlayerYouTube.a1b41258.chunk.js",
     "reactPlayerSoundCloud.js": "/DosyDos-website/static/js/reactPlayerSoundCloud.b42af5f7.chunk.js",
     "reactPlayerVimeo.js": "/DosyDos-website/static/js/reactPlayerVimeo.3c4bf36f.chunk.js",
@@ -32,7 +32,7 @@
     "static/media/productions.toml": "/DosyDos-website/static/media/productions.9e17640ce2994cc11eee.toml",
     "index.html": "/DosyDos-website/index.html",
     "main.8ad8e6a3.css.map": "/DosyDos-website/static/css/main.8ad8e6a3.css.map",
-    "main.50925d9b.js.map": "/DosyDos-website/static/js/main.50925d9b.js.map",
+    "main.ad7a63b7.js.map": "/DosyDos-website/static/js/main.ad7a63b7.js.map",
     "reactPlayerYouTube.a1b41258.chunk.js.map": "/DosyDos-website/static/js/reactPlayerYouTube.a1b41258.chunk.js.map",
     "reactPlayerSoundCloud.b42af5f7.chunk.js.map": "/DosyDos-website/static/js/reactPlayerSoundCloud.b42af5f7.chunk.js.map",
     "reactPlayerVimeo.3c4bf36f.chunk.js.map": "/DosyDos-website/static/js/reactPlayerVimeo.3c4bf36f.chunk.js.map",
@@ -50,6 +50,6 @@
   },
   "entrypoints": [
     "static/css/main.8ad8e6a3.css",
-    "static/js/main.50925d9b.js"
+    "static/js/main.ad7a63b7.js"
   ]
 }
