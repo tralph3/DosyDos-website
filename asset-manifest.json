@@ -1,7 +1,21 @@
 {
   "files": {
-    "main.css": "/DosyDos-website/static/css/main.c1c6fa9c.css",
-    "main.js": "/DosyDos-website/static/js/main.2790e0cd.js",
+    "main.css": "/DosyDos-website/static/css/main.8ad8e6a3.css",
+    "main.js": "/DosyDos-website/static/js/main.34097676.js",
+    "reactPlayerYouTube.js": "/DosyDos-website/static/js/reactPlayerYouTube.a1b41258.chunk.js",
+    "reactPlayerSoundCloud.js": "/DosyDos-website/static/js/reactPlayerSoundCloud.b42af5f7.chunk.js",
+    "reactPlayerVimeo.js": "/DosyDos-website/static/js/reactPlayerVimeo.3c4bf36f.chunk.js",
+    "reactPlayerMux.js": "/DosyDos-website/static/js/reactPlayerMux.c55d4e03.chunk.js",
+    "reactPlayerFacebook.js": "/DosyDos-website/static/js/reactPlayerFacebook.574f51d7.chunk.js",
+    "reactPlayerStreamable.js": "/DosyDos-website/static/js/reactPlayerStreamable.c1e9fc34.chunk.js",
+    "reactPlayerWistia.js": "/DosyDos-website/static/js/reactPlayerWistia.a805b714.chunk.js",
+    "reactPlayerTwitch.js": "/DosyDos-website/static/js/reactPlayerTwitch.cc7398d9.chunk.js",
+    "reactPlayerDailyMotion.js": "/DosyDos-website/static/js/reactPlayerDailyMotion.068a5651.chunk.js",
+    "reactPlayerMixcloud.js": "/DosyDos-website/static/js/reactPlayerMixcloud.cdf9e186.chunk.js",
+    "reactPlayerVidyard.js": "/DosyDos-website/static/js/reactPlayerVidyard.52c42823.chunk.js",
+    "reactPlayerKaltura.js": "/DosyDos-website/static/js/reactPlayerKaltura.1c2d4c03.chunk.js",
+    "reactPlayerFilePlayer.js": "/DosyDos-website/static/js/reactPlayerFilePlayer.47592a58.chunk.js",
+    "reactPlayerPreview.js": "/DosyDos-website/static/js/reactPlayerPreview.cd8f48c0.chunk.js",
     "static/media/hero.jpg": "/DosyDos-website/static/media/hero.481e58867aafa8b5f499.jpg",
     "static/media/terminator.jpg": "/DosyDos-website/static/media/terminator.2fb80709452244dbe1c7.jpg",
     "static/media/terminator2.jpg": "/DosyDos-website/static/media/terminator2.6b0915b83383ec9f29f0.jpg",
@@ -15,13 +29,27 @@
     "static/media/email.svg": "/DosyDos-website/static/media/email.68f25a7ccd73f7a88de3.svg",
     "static/media/config.toml": "/DosyDos-website/static/media/config.6548c43fa7d73d25ec19.toml",
     "static/media/youtube.svg": "/DosyDos-website/static/media/youtube.895f3548b16a61e1205a.svg",
-    "static/media/productions.toml": "/DosyDos-website/static/media/productions.09e19f7a9e091b4c5042.toml",
+    "static/media/productions.toml": "/DosyDos-website/static/media/productions.9e17640ce2994cc11eee.toml",
     "index.html": "/DosyDos-website/index.html",
-    "main.c1c6fa9c.css.map": "/DosyDos-website/static/css/main.c1c6fa9c.css.map",
-    "main.2790e0cd.js.map": "/DosyDos-website/static/js/main.2790e0cd.js.map"
+    "main.8ad8e6a3.css.map": "/DosyDos-website/static/css/main.8ad8e6a3.css.map",
+    "main.34097676.js.map": "/DosyDos-website/static/js/main.34097676.js.map",
+    "reactPlayerYouTube.a1b41258.chunk.js.map": "/DosyDos-website/static/js/reactPlayerYouTube.a1b41258.chunk.js.map",
+    "reactPlayerSoundCloud.b42af5f7.chunk.js.map": "/DosyDos-website/static/js/reactPlayerSoundCloud.b42af5f7.chunk.js.map",
+    "reactPlayerVimeo.3c4bf36f.chunk.js.map": "/DosyDos-website/static/js/reactPlayerVimeo.3c4bf36f.chunk.js.map",
+    "reactPlayerMux.c55d4e03.chunk.js.map": "/DosyDos-website/static/js/reactPlayerMux.c55d4e03.chunk.js.map",
+    "reactPlayerFacebook.574f51d7.chunk.js.map": "/DosyDos-website/static/js/reactPlayerFacebook.574f51d7.chunk.js.map",
+    "reactPlayerStreamable.c1e9fc34.chunk.js.map": "/DosyDos-website/static/js/reactPlayerStreamable.c1e9fc34.chunk.js.map",
+    "reactPlayerWistia.a805b714.chunk.js.map": "/DosyDos-website/static/js/reactPlayerWistia.a805b714.chunk.js.map",
+    "reactPlayerTwitch.cc7398d9.chunk.js.map": "/DosyDos-website/static/js/reactPlayerTwitch.cc7398d9.chunk.js.map",
+    "reactPlayerDailyMotion.068a5651.chunk.js.map": "/DosyDos-website/static/js/reactPlayerDailyMotion.068a5651.chunk.js.map",
+    "reactPlayerMixcloud.cdf9e186.chunk.js.map": "/DosyDos-website/static/js/reactPlayerMixcloud.cdf9e186.chunk.js.map",
+    "reactPlayerVidyard.52c42823.chunk.js.map": "/DosyDos-website/static/js/reactPlayerVidyard.52c42823.chunk.js.map",
+    "reactPlayerKaltura.1c2d4c03.chunk.js.map": "/DosyDos-website/static/js/reactPlayerKaltura.1c2d4c03.chunk.js.map",
+    "reactPlayerFilePlayer.47592a58.chunk.js.map": "/DosyDos-website/static/js/reactPlayerFilePlayer.47592a58.chunk.js.map",
+    "reactPlayerPreview.cd8f48c0.chunk.js.map": "/DosyDos-website/static/js/reactPlayerPreview.cd8f48c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1c6fa9c.css",
-    "static/js/main.2790e0cd.js"
+    "static/css/main.8ad8e6a3.css",
+    "static/js/main.34097676.js"
   ]
 }
