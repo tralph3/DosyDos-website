@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import { Hero } from "./components/Hero";
 import { Subtitle } from "./components/Subtitle";
@@ -10,13 +10,13 @@ import { ProductionView } from "./components/ProductionView";
 import { getConfigAndProductions } from "./util";
 const about_image = require(`./img/about.png`);
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
-        path: "/DosyDos-website",
+        path: "/",
         element: <Home />,
     },
     {
-        path: "/DosyDos-website/production/:prodName",
+        path: "/production/:prodName",
         element: <ProductionView />,
     }
 ]);
