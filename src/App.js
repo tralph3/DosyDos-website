@@ -12,11 +12,11 @@ const about_image = require(`./img/about.png`);
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/DosyDos-website",
         element: <Home />,
     },
     {
-        path: "/production/:prodName",
+        path: "/DosyDos-website/production/:prodName",
         element: <ProductionView />,
     }
 ]);

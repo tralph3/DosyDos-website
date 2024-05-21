@@ -6,7 +6,7 @@ function Production({ internalName, title, releaseDate, coverName, type }) {
 
   return (
     <div className="production">
-          <Link to={`/production/${internalName}`}>
+          <Link to={`/DosyDos-website/production/${internalName}`}>
       <div className="production-cover">
         <img alt={coverName} src={cover} />
           </div>
