@@ -1,51 +1,51 @@
 import { useState, useEffect } from "react";
-import productionsFile from "./productions.toml";
-import configFile from "./config.toml";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./App.css";
 import { Hero } from "./components/Hero";
 import { Subtitle } from "./components/Subtitle";
 import { Production } from "./components/Production";
 import { Footer } from "./components/Footer";
 import { Quote } from "./components/Quote";
+import { ProductionView } from "./components/ProductionView";
+import { getConfigAndProductions } from "./util";
 const about_image = require(`./img/about.png`);
-const toml = require("toml");
 
-export default function DosyDos() {
-  let [productions, setProductions] = useState(Object);
-  let [config, setConfig] = useState(Object);
+const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <Home />,
+    },
+    {
+        path: "/production/:prodName",
+        element: <ProductionView />,
+    }
+]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const [productionsResponse, configResponse] = await Promise.all([
-          fetch(productionsFile),
-          fetch(configFile),
-        ]);
-        const [productionsText, configText] = await Promise.all([
-          productionsResponse.text(),
-          configResponse.text(),
-        ]);
+function Home() {
+    const [productions, setProductions] = useState(Object);
+    const [config, setConfig] = useState(Object);
 
-        setProductions(toml.parse(productionsText));
-        setConfig(toml.parse(configText));
-      } catch (error) {
-        console.error("Error fetching data:", error);
-      }
-    };
+    useEffect(() => {
+        async function populate() {
+            let data = await getConfigAndProductions();
+            setProductions(data.productions);
+            setConfig(data.config);
+        }
 
-    fetchData();
-  }, []);
+        populate();
+    }, []);
 
-  if (!config || Object.keys(config).length === 0) {
-    return null;
-  }
+    if (!config || Object.keys(config).length === 0) {
+        return null;
+    }
 
-  let productionComponents = [];
+    let productionComponents = [];
   for (let productionKey in productions) {
     let production = productions[productionKey];
     productionComponents.push(
       <Production
-        key={productionKey}
+          key={productionKey}
+          internalName={productionKey}
         title={production["title"]}
         coverName={production["coverName"]}
         releaseDate={production["releaseDate"]}
@@ -86,5 +86,11 @@ export default function DosyDos() {
       </div>
       <Footer contactConfig={contactConfig} />
     </>
+  );
+}
+
+export default function App() {
+  return (
+      <RouterProvider router={router} />
   );
 }

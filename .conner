@@ -1,1 +1,6 @@
-(("Watch website" . "npm start"))
+;;; -*- lisp-data -*-
+((:name "Watch"
+        :command "npm run start"
+        :type "eat"
+        :workdir nil
+        :environment nil))
