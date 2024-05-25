@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import "./Production.css";
 
 function Production({ internalName, title, releaseDate, coverName, type }) {
@@ -6,11 +6,11 @@ function Production({ internalName, title, releaseDate, coverName, type }) {
 
   return (
     <div className="production">
-          <Link to={`/production/${internalName}`}>
-      <div className="production-cover">
-        <img alt={coverName} src={cover} />
-          </div>
-       </Link>
+      <Link to={`/production/${internalName}`}>
+        <div className="production-cover">
+          <img alt={coverName} src={cover} />
+        </div>
+      </Link>
       <div className="production-info">
         <h4 className="production-info">
           {releaseDate} · {type.toUpperCase()}

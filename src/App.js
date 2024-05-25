@@ -11,41 +11,41 @@ import { getConfigAndProductions } from "./util";
 const about_image = require(`./img/about.png`);
 
 const router = createHashRouter([
-    {
-        path: "/",
-        element: <Home />,
-    },
-    {
-        path: "/production/:prodName",
-        element: <ProductionView />,
-    }
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "/production/:prodName",
+    element: <ProductionView />,
+  },
 ]);
 
 function Home() {
-    const [productions, setProductions] = useState(Object);
-    const [config, setConfig] = useState(Object);
+  const [productions, setProductions] = useState(Object);
+  const [config, setConfig] = useState(Object);
 
-    useEffect(() => {
-        async function populate() {
-            let data = await getConfigAndProductions();
-            setProductions(data.productions);
-            setConfig(data.config);
-        }
-
-        populate();
-    }, []);
-
-    if (!config || Object.keys(config).length === 0) {
-        return null;
+  useEffect(() => {
+    async function populate() {
+      let data = await getConfigAndProductions();
+      setProductions(data.productions);
+      setConfig(data.config);
     }
 
-    let productionComponents = [];
+    populate();
+  }, []);
+
+  if (!config || Object.keys(config).length === 0) {
+    return null;
+  }
+
+  let productionComponents = [];
   for (let productionKey in productions) {
     let production = productions[productionKey];
     productionComponents.push(
       <Production
-          key={productionKey}
-          internalName={productionKey}
+        key={productionKey}
+        internalName={productionKey}
         title={production["title"]}
         coverName={production["coverName"]}
         releaseDate={production["releaseDate"]}
@@ -90,7 +90,5 @@ function Home() {
 }
 
 export default function App() {
-  return (
-      <RouterProvider router={router} />
-  );
+  return <RouterProvider router={router} />;
 }
