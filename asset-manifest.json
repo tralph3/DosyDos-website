@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DosyDos-website/static/css/main.8ad8e6a3.css",
-    "main.js": "/DosyDos-website/static/js/main.84256fec.js",
+    "main.js": "/DosyDos-website/static/js/main.f609db91.js",
     "reactPlayerYouTube.js": "/DosyDos-website/static/js/reactPlayerYouTube.a1b41258.chunk.js",
     "reactPlayerSoundCloud.js": "/DosyDos-website/static/js/reactPlayerSoundCloud.b42af5f7.chunk.js",
     "reactPlayerVimeo.js": "/DosyDos-website/static/js/reactPlayerVimeo.3c4bf36f.chunk.js",
@@ -18,6 +18,7 @@
     "reactPlayerPreview.js": "/DosyDos-website/static/js/reactPlayerPreview.cd8f48c0.chunk.js",
     "static/media/Expiación Poster.png": "/DosyDos-website/static/media/Expiación Poster.948286474ecb2bdc5337.png",
     "static/media/hero.jpg": "/DosyDos-website/static/media/hero.481e58867aafa8b5f499.jpg",
+    "static/media/Katalepsis Final.png": "/DosyDos-website/static/media/Katalepsis Final.d066c52f6ce59b4b21e4.png",
     "static/media/terminator.jpg": "/DosyDos-website/static/media/terminator.2fb80709452244dbe1c7.jpg",
     "static/media/terminator2.jpg": "/DosyDos-website/static/media/terminator2.6b0915b83383ec9f29f0.jpg",
     "static/media/about.png": "/DosyDos-website/static/media/about.8146f16d83b5e33d2f12.png",
@@ -33,7 +34,7 @@
     "static/media/productions.toml": "/DosyDos-website/static/media/productions.e9ff262555da361354b3.toml",
     "index.html": "/DosyDos-website/index.html",
     "main.8ad8e6a3.css.map": "/DosyDos-website/static/css/main.8ad8e6a3.css.map",
-    "main.84256fec.js.map": "/DosyDos-website/static/js/main.84256fec.js.map",
+    "main.f609db91.js.map": "/DosyDos-website/static/js/main.f609db91.js.map",
     "reactPlayerYouTube.a1b41258.chunk.js.map": "/DosyDos-website/static/js/reactPlayerYouTube.a1b41258.chunk.js.map",
     "reactPlayerSoundCloud.b42af5f7.chunk.js.map": "/DosyDos-website/static/js/reactPlayerSoundCloud.b42af5f7.chunk.js.map",
     "reactPlayerVimeo.3c4bf36f.chunk.js.map": "/DosyDos-website/static/js/reactPlayerVimeo.3c4bf36f.chunk.js.map",
@@ -51,6 +52,6 @@
   },
   "entrypoints": [
     "static/css/main.8ad8e6a3.css",
-    "static/js/main.84256fec.js"
+    "static/js/main.f609db91.js"
   ]
 }
