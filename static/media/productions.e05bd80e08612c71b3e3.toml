@@ -6,7 +6,7 @@
 #type=
 #link=
 
-[Expiación]
+[expiacion]
 title="Expiación"
 description="Arthur, un viejo y solitario hombre, sigue los pasos de un antiguo ritual judío, para poder expiar sus pecados y salvar su alma."
 releaseDate="2023"
@@ -14,7 +14,7 @@ coverName="Expiación Poster.png"
 type="CORTOMETRAJE"
 link="https://youtu.be/UdDZ4oUrZXM"
 
-[Edén]
+[eden]
 title="Edén"
 description="Un joven sumido en la monotonía del día a día, atormentado por sus pensamientos intrusivos y la profunda angustia, decide quitarse la vida frente a su unico compañero; un viejo televisor. Sin quererlo, crea una irremediable conexión con un paraíso siniestro."
 releaseDate="2023"
@@ -22,8 +22,8 @@ coverName="Edensolo.png"
 type="CORTOMETRAJE"
 link="https://vimeo.com/918038415"
 
-[Katálepsis]
-title="Katálepsis"
+[katalepsis]
+title="Katálēpsis"
 description="La noche se convierte en un purgatorio sin fin que trae consigo el pasado pecaminoso de un hombre que ahora huye de los lúgubres y lívidos recuerdos que se encarnan en el espectro de una mujer."
 releaseDate="2023"
 coverName="Katalepsis Final.png"
