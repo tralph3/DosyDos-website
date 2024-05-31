@@ -2,5 +2,4 @@
 ((:name "Watch"
         :command "npm run start"
         :type "eat"
-        :workdir nil
-        :environment nil))
+        :silent t))

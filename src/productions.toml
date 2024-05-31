@@ -5,6 +5,7 @@
 #coverName=
 #type=
 #link=
+#sheet=
 
 [expiacion]
 title="Expiación"
@@ -13,6 +14,19 @@ releaseDate="2023"
 coverName="Expiación Poster.png"
 type="CORTOMETRAJE"
 link="https://youtu.be/UdDZ4oUrZXM"
+sheet=[
+["Dirección", "Joaquín Ralph y Franco Padin"],
+["Guión", "Franco Padin"],
+["Dirección de Fotografía", "Joaquín Ralph"],
+["Gaffer", "Sofía Cappetto"],
+["Dirección de Arte", "Fernando Torres e Irina González"],
+["Dirección de Sonido", "Jessica Fernández"],
+["Micrófono", "Juan Manuel Gómez"],
+["Banda Sonora", "Francisco Mejide"],
+["Diseño Sonoro", "Francisco Mejide"],
+["Montaje", "Joaquín Ralph y Franco Padin"],
+["Actuación", "Lionel Sinnott"],
+]
 
 [eden]
 title="Edén"
@@ -21,6 +35,15 @@ releaseDate="2023"
 coverName="Edensolo.png"
 type="CORTOMETRAJE"
 link="https://vimeo.com/918038415"
+sheet=[
+["Dirección", "Jessica Fernández, Franco Padin y Ignacio Ramallo"],
+["Asistencia de Dirección", "Franco Padin"],
+["Dirección de Fotografía", "Joaquín Ralph y Sofía Cappetto"],
+["Dirección de Arte", "Fernando Torres e Irina González"],
+["Dirección de Sonido", "Agustín Candal"],
+["Montaje", "Joaquín Ralph, Franco Padin y Ignacio Ramallo"],
+["Actuación", "Ignacio Ramallo, Jessica Fernández y Fernando Torres"],
+]
 
 [katalepsis]
 title="Katálēpsis"
@@ -29,3 +52,12 @@ releaseDate="2023"
 coverName="Katalepsis Final.png"
 type="CORTOMETRAJE"
 link="https://vimeo.com/819819044"
+sheet=[
+["Dirección", "Ignacio Ramallo"],
+["Asistencia de Dirección", "Franco Padin"],
+["Dirección de Fotografía", "Joaquín Ralph"],
+["Dirección de Arte", "Irina González"],
+["Dirección de Sonido", "Juan Manuel Gómez"],
+["Montaje", "Ignacio Ramallo"],
+["Actuación", "Ignacio Ramallo y Jessica Fernández"],
+]

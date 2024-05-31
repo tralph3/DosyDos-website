@@ -16,7 +16,7 @@
 
 .pview-description {
   font-size: 32px;
-  text-align: center;
+  text-align: justify;
   max-width: 700px;
   margin: 0 auto;
 }
@@ -35,4 +35,20 @@
   .video-container {
     max-width: 100%;
   }
+}
+
+.sheet-entry {
+    text-align: left;
+    max-width: 500px;
+    margin: 1rem auto;
+    font-size: 18px;
+}
+
+.sheet-right-side {
+    float: right;
+}
+
+
+.pview-tech-sheet {
+    margin-top: 3rem;
 }
