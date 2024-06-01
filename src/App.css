@@ -7,21 +7,23 @@ body {
   display: grid;
   gap: min(4vw, 2rem);
   grid-template-columns: repeat(auto-fit, 200px);
-  margin: 5vw;
+  margin: 5vw max(3vw, 50% - 1300px/2);
   margin-top: 1vh;
+  max-width: 1300px;
 }
 
 .about {
   display: flex;
   gap: 2rem;
   text-align: justify;
-  margin: 5vw;
+  margin: 5vw max(3vw, 50% - 1300px/2);
   margin-top: 1vh;
   font-size: 18px;
+  max-width: 1300px;
 }
 
 .aboutText {
-  max-width: min(100%, 800px);
+  max-width: min(100%, 600px);
 }
 
 .about img {
