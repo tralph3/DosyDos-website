@@ -8,10 +8,12 @@ import { Footer } from "./Footer";
 function SheetEntry({ role, name }) {
     return (
         <div className="sheet-entry">
-            {role}
-            <span className="sheet-right-side">
+            <div className="sheet-role">
+                {role}
+            </div>
+            <div className="sheet-name">
                 {name}
-            </span>
+            </div>
         </div>
     );
 }

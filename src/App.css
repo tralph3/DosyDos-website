@@ -43,3 +43,10 @@ body {
     max-width: 100%;
   }
 }
+
+@media (max-width: 500px) {
+    .productions {
+        grid-template-columns: initial;
+        grid-auto-rows: auto;
+    }
+}
