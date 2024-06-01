@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DosyDos-website/static/css/main.a0656d92.css",
-    "main.js": "/DosyDos-website/static/js/main.a777d6d1.js",
+    "main.css": "/DosyDos-website/static/css/main.a8676cc8.css",
+    "main.js": "/DosyDos-website/static/js/main.89beb5eb.js",
     "reactPlayerYouTube.js": "/DosyDos-website/static/js/reactPlayerYouTube.a1b41258.chunk.js",
     "reactPlayerSoundCloud.js": "/DosyDos-website/static/js/reactPlayerSoundCloud.b42af5f7.chunk.js",
     "reactPlayerVimeo.js": "/DosyDos-website/static/js/reactPlayerVimeo.3c4bf36f.chunk.js",
@@ -29,13 +29,13 @@
     "static/media/overpass-light.otf": "/DosyDos-website/static/media/overpass-light.7fcceb8a5f8f2362108e.otf",
     "static/media/overpass-bold.otf": "/DosyDos-website/static/media/overpass-bold.0d14110fa0a3f426763d.otf",
     "static/media/instagram.svg": "/DosyDos-website/static/media/instagram.b61edd4367d2b75de1ab.svg",
+    "static/media/productions.toml": "/DosyDos-website/static/media/productions.802800c65ba711b15d5f.toml",
     "static/media/email.svg": "/DosyDos-website/static/media/email.68f25a7ccd73f7a88de3.svg",
     "static/media/config.toml": "/DosyDos-website/static/media/config.7ccf9f6c63cb1f119890.toml",
-    "static/media/productions.toml": "/DosyDos-website/static/media/productions.e05bd80e08612c71b3e3.toml",
     "static/media/youtube.svg": "/DosyDos-website/static/media/youtube.895f3548b16a61e1205a.svg",
     "index.html": "/DosyDos-website/index.html",
-    "main.a0656d92.css.map": "/DosyDos-website/static/css/main.a0656d92.css.map",
-    "main.a777d6d1.js.map": "/DosyDos-website/static/js/main.a777d6d1.js.map",
+    "main.a8676cc8.css.map": "/DosyDos-website/static/css/main.a8676cc8.css.map",
+    "main.89beb5eb.js.map": "/DosyDos-website/static/js/main.89beb5eb.js.map",
     "reactPlayerYouTube.a1b41258.chunk.js.map": "/DosyDos-website/static/js/reactPlayerYouTube.a1b41258.chunk.js.map",
     "reactPlayerSoundCloud.b42af5f7.chunk.js.map": "/DosyDos-website/static/js/reactPlayerSoundCloud.b42af5f7.chunk.js.map",
     "reactPlayerVimeo.3c4bf36f.chunk.js.map": "/DosyDos-website/static/js/reactPlayerVimeo.3c4bf36f.chunk.js.map",
@@ -52,7 +52,7 @@
     "reactPlayerPreview.cd8f48c0.chunk.js.map": "/DosyDos-website/static/js/reactPlayerPreview.cd8f48c0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0656d92.css",
-    "static/js/main.a777d6d1.js"
+    "static/css/main.a8676cc8.css",
+    "static/js/main.89beb5eb.js"
   ]
 }
